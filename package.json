@@ -1,0 +1,20 @@
+{
+	"name": "nytely-audio-extractor",
+	"version": "1.0.0",
+	"description": "Extracts 6 Audio Channels from an MP4 File that contains AAC Encoded Audio",
+	"author": "JackNytely",
+	"license": "ISC",
+	"main": "src/app.ts",
+	"scripts": {
+		"start": "ts-node ."
+	},
+	"dependencies": {
+		"@types/fluent-ffmpeg": "^2.1.21",
+		"ffmpeg-static": "^5.1.0",
+		"fluent-ffmpeg": "^2.1.2",
+		"rimraf": "^5.0.1"
+	},
+	"devDependencies": {
+		"ts-node": "^10.9.1"
+	}
+}
